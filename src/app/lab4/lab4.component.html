@@ -1,0 +1,5 @@
+<h1>This is Lab4 Component</h1>
+<p *ngFor = "let num of arrNum" 
+[ngClass]="{'number-even': num %2===0,'number-odd':num %2!==0 }"
+> 
+{{ num }}</p>  
